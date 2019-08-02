@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex布局</title>
+	<style type="text/css">
+		.container{
+			display: flex;
+			flex-direction: row;            /* 行还是列  row  row-reserve  column   column-reserve */
+			flex-wrap:wrap;                 /* 是否换行 */
+			justify-content: center;        /* 对齐方式 */
+			align-items: center;            /* 子元素的对齐方式 */
+			width:100%;
+			background: #999;
+		}
+		.container>div{
+			background: #ddd;
+			padding:100px;
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+	<div>111111111</div>
+</div>
+</body>
+</html>
